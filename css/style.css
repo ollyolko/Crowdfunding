@@ -1,0 +1,253 @@
+                       /*-- розмітка --*/
+html{
+    min-width: 800px;
+    max-width: 1920px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+div{
+    display: inline-block;
+}
+.header{
+    width: 100%;
+    background-image: url("../img/city.jpg");
+    height: 864px;
+}
+.header-left{
+    width: 44%;
+    background: rgba(0, 119, 135, 0.6);
+    float: left;
+}
+.header-right{
+    width: 55%;
+    margin-top: 50px;
+}
+.header-right-data{
+    background: white;
+    margin-left:  10%;
+    width: 500px;
+}
+.header-right-data h1{
+    text-align: center;
+    margin-top: -25px;
+}
+.header-left-empty{
+    width: 49%;
+}
+.header-left-full{
+    text-align: center;
+    height: 873px;
+    width: 49%;
+}
+.header-left-full h1, .header-left-full p{
+    color: yellow;
+    text-align: center;
+}
+.header-left-full img{
+    vertical-align: -10px;
+}
+.header-right-top{
+    height: 200px;
+    width: 300px;
+}
+.content{
+    width: 100%;
+    text-align: center;
+}
+.content-top{
+    width: 100%;
+    background-image: url("../img/map.png");
+    height: 500px;
+}
+.content-top-data{
+    width: 1000px;
+}
+.content-img{
+    width: 50%;
+}
+.content-bracket{
+    width: 10%;
+    vertical-align: top;
+    font-size: xx-large;
+}
+.content-top-parag{
+    width: 20%;
+    vertical-align: top;
+    text-align: left;
+}
+.content-main{
+    /*background: #ffd708;*/
+    width: 100%;
+}
+.content-main-data{
+    width: 1000px;
+    display: inline-block;
+}
+.content-main-data-p, .content-main-data-a{
+    float: left;
+    /*background: red;*/
+    vertical-align: top;
+}
+.content-main-data-p{
+    width: 24%;
+}
+.content-main-data-a{
+    width: 74%;
+}
+.content-main-data-a a{
+    margin-right: 40px;
+}
+.content-main-block{
+    width: 450px;
+    background: #efefee;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.content-main-block img{
+    width: 400px;
+    margin-top: 10px;
+    border: solid 1px #008290;
+}
+ h3, h2, h1, p, a, .main-color{
+    color: #008290;
+}
+.content-main h3, p{
+    text-align: left;
+    padding: 10px;
+}
+.hot-color, a:hover{
+    color: red;
+}
+.count-color{
+    color: gray;
+}
+.content-main-block hr{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #00a8b6;
+}
+.about-us{
+    width: 100%;
+}
+.about-us-data{
+    width: 1000px;
+}
+.about-us-data a{
+    padding-right: 50px;
+}
+.about-us-data img, .about-us-data h2{
+    float: left;
+}
+.about-us-data img{
+    padding-top: 20px;
+}
+.line-vertical{
+    height: 130px;
+    width: 15px;
+    float: left;
+    border: none;
+    background-color: #aad1d3;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.project{
+    width: 100%;
+}
+.project-data{
+    width: 1000px;
+}
+.project-data img{
+    height: 300px;
+}
+.project-image{
+    width: 49%;
+}
+.project-text{
+    width: 49%;
+}
+.rocket{
+    width: 100%;
+}
+.rocket-data{
+    width: 1000px;
+    display: inline-block;
+}
+.rocket-data-gagarin{
+    float: left;
+}
+.rocket-data-anchor{
+    float: right;
+    margin-top: 75px;
+    font-size: 20px;
+}
+.rocket-data-rocket{
+    float: right;
+    margin-top: 55px;
+}
+.footer-link, .footer-form, .footer-contact{
+    display: inline-block;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+}
+.footer-link{
+    background: #00b0c3;
+    height: 100px;
+}
+.footer-link-a a{
+    margin-right: 110px;
+    margin-top: 50px;
+}
+.footer-form{
+    background: #00535e;
+    height: 80px;
+}
+.footer-contact{
+    background: #003237;
+    height: 80px;
+}
+
+body{
+    margin: 0;
+}
+span.menu{
+    font-size: 30pt;
+    color: yellow;
+    padding-right: 200px;
+}
+.header-left-ful{
+    text-decoration: none;
+}
+.header-left-full h2,p{
+    color: black;
+}
+.header-left-full h4{
+    color: white;
+}
+.content-top-data img{
+    width: 99%;
+}
+.content-main-data p{
+    text-align: left;
+}
+
+.line {
+    text-align: center;
+}
+.line:before, .line:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    height: 2px;
+    background-color: yellow;
+    position: relative;
+}
+.line:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.line:after {
+    margin-right: -100%;
+    right: -14px;
+}

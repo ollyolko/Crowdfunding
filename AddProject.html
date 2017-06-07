@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/add.css" rel="stylesheet">
+</head>
+<body>
+<h1>Додати проект</h1>
+<div class="notebook">
+    <input type="radio" name="notebook1" id="notebook1_1" checked
+    ><label for="notebook1_1">Основні дані</label
+><input type="radio" name="notebook1" id="notebook1_2"
+><label for="notebook1_2">Детальніше</label
+><input type="radio" name="notebook1" id="notebook1_3"
+><label for="notebook1_3">Винагороди</label
+><input type="radio" name="notebook1" id="notebook1_4"
+><label for="notebook1_4">Команда</label
+><input type="radio" name="notebook1" id="notebook1_5"
+><label for="notebook1_5">Реквізити</label
+><input type="radio" name="notebook1" id="notebook1_6"
+><label for="notebook1_6">Надіслати</label>
+    <div class="main-data">
+        <form action="#" method="post" name="main-data">
+            <ul>
+                <li>
+                    <label for="name">Назва проекту* </label>
+                    <input type="text" name="name" id="name" placeholder="Дайте своєму проекту файне ім'я                    9/40" size="40">
+                </li>
+                <li>
+                    <label for="budget">Бюджет* </label>
+                    <input type="text" name="budget" id="budget" placeholder="56 5456">грн
+                    <p>Впишіть бюджет проекту в гривнях <a href="#">Як правильно вирахувати бюджет</a></p>
+                </li>
+                <li>
+                    <label>Тривалість*
+                    <input type="radio" name="duration"  value="30">30 днів
+                    <input type="radio" name="duration"  value="60">60 днів
+                    <input type="radio" name="duration"  value="90">90 днів
+                    <input type="radio" name="duration"  value="365">365
+                    </label>
+                    <p>Виберіть термін</p>
+                </li>
+                <li>
+                    <label>Категорія*</label>
+                        <input type="radio" name="category" value="">Транспорт
+                        <input type="radio" name="category" value="">Права людини
+                        <input type="radio" name="category" value="">Освіта
+                        <input type="radio" name="category" value="">Дизайн
+                        <input type="radio" name="category" value="">Література
+                        <input type="radio" name="category" value="">Музика
+                        <input type="radio" name="category" value="">Медіа
+                        <input type="radio" name="category" value="">Місто
+                        <input type="radio" name="category" value="">Інтернет
+                        <input type="radio" name="category" value="">Подорож
+                        <input type="radio" name="category" value="">Соціум
+                        <input type="radio" name="category" value="">Бізнес
+                        <input type="radio" name="category" value="">Технології
+                        <input type="radio" name="category" value="">Діти
+                        <input type="radio" name="category" value="">Відео
+                        <input type="radio" name="category" value="">Кіно
+                        <input type="radio" name="category" value="">Здоров'я
+                        <input type="radio" name="category" value="">Економіка
+                        <input type="radio" name="category" value="">Екологія
+                        <input type="radio" name="category" value="">Театр
+                        <input type="radio" name="category" value="">Мистецтво
+
+                </li>
+                <li>
+                    <label for="down">Образ проекту*
+                        <input type="file" name="down" id="down">
+                        <p>Цe зображення стане обкладинкою вашого проекту, та буде показано на головній сторінці цього сайту та вашого проекту.<br /> Розмір 1920 ч 530px  Формати: jpeg/jpg/png</p>
+                    </label>
+                </li>
+                <li>
+                    <label for="video">Відео*</label>
+                        <input type="url" name="video" id="video">
+                        <p>Вставте посилання з youtube або vimeo. Відео - найкращий спосіб відчути емоції, мотиви і характер проекту. Ефективний хронометраж - 1-3хв.</p>
+                </li>
+                <li>
+                    <input type="button" value="ЗБЕРЕГТИ ТА ПРОДОВЖИТИ">
+                </li>
+            </ul>
+        </form>
+    </div>
+
+
+
+    <div class="details">
+        2
+    </div>
+
+    <div class="dis">
+        <form>
+        <ul>
+            <li>
+                 <h2>Винагорода 1</h2>
+            </li>
+            <li>
+                <label for="sum">Сума
+                    <input type="text" name="sum" id="sum" placeholder="56 5456">
+                </label>
+                <label for="count">Кількість
+                    <input type="text" name="count" id="count">
+                </label>
+            </li>
+            <li>
+                <label for="disc">Опис
+                    <textarea name="disc" id="disc" rows="10" cols="80"></textarea>
+                </label>
+            </li>
+            <li>
+                <label for="im">Зображення винагороди*
+                    <textarea name="im" id="im" rows="8" cols="80"></textarea>
+                </label>
+                <p>презентуй винагороду через образ. Розмір 320 х 320 px  Формати: jpeg/jpg/png</p>
+            </li>
+            <li>
+                <label for="time-m">Місяць
+                    <input type="month" name="time-m" id="time-m">
+                </label>
+                <label for="time-y">Рік
+                    <input type="date" name="time-y" id="time-y">
+                </label>
+            </li>
+            <li>
+                <textarea cols="50" rows="6">+Додати ще винагороду</textarea>
+            </li>
+            <li>
+                <input type="button" value="ЗБЕРЕГТИ ТА ПРОДОВЖИТИ">
+            </li>
+        </ul>
+        </form>
+    </div>
+
+    <div class="command">
+        <form>
+        <ul>
+            <li>
+                <h2>Команда проекту</h2>
+            </li>
+            <li>
+                <input type="text" value="konstant jaroslava">
+                <input type="text" value="avtor">
+            </li>
+            <li>
+                <input type="text" value="konstant jaroslava">
+                <input type="text" value="avtor">
+            </li>
+            <li>
+                <input type="text" value="konstant jaroslava">
+                <input type="text" value="avtor">
+            </li>
+            <li>
+                <textarea cols="50" rows="6">+Додати ще людину</textarea>
+            </li>
+            <li>
+                <input type="button" value="ЗБЕРЕГТИ ТА ПРОДОВЖИТИ">
+            </li>
+        </ul>
+        </form>
+    </div>
+
+
+    <div class="point">
+        <form>
+        <ul>
+            <li>
+                <input type="radio" value="">Неприбуткова організація
+                <input type="radio" value="">Фізична особа підприємець
+            </li>
+            <li>
+                <label for="account-holder">Власник рахунку*
+                    <input type="text" name="account-holder" id="account-holder">
+                </label>
+            </li>
+            <li>
+                <label for="adress">Адреса*
+                    <input type="text" name="adress" id="adress">
+                </label>
+            </li>
+            <li>
+                <label for="city">Місто*
+                    <input type="text" name="city" id="city">
+                </label>
+            </li>
+            <li>
+                <label for="account-number">Номер рахунку*
+                    <input type="text" name="account-number" id="account-number">
+                </label>
+            </li>
+            <li>
+                <label for="mfo">МФО*
+                    <input type="text" name="mfo" id="mfo">
+                </label>
+            </li>
+            <li>
+                <label for="bank">Банк*
+                    <input type="text" name="bank" id="bank">
+                </label>
+            </li>
+            <li>
+                <label for="mfo2">МФО*
+                    <input type="text" name="mfo2" id="mfo2">
+                </label>
+            </li>
+            <li>
+                <label for="phone">Телефон
+                    <input type="text" name="phone" id="phone">
+                </label>
+            </li>
+            <li>
+                <input type="button" value="ЗБЕРЕГТИ">
+            </li>
+        </ul>
+        </form>
+    </div>
+    <div>
+        <h3>Это 6 вкладка. :)</h3>
+    </div>
+</div>
+
+
+</body>
+</html>
